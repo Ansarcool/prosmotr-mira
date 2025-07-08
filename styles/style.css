@@ -16,6 +16,9 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1,
@@ -35,4 +38,21 @@ fieldset {
 ul,
 ol {
   list-style: none;
+}
+.result__video {
+  width: 711px;
+  height: 386px;
+}
+.content {
+  display: flex;
+}
+.content__details {
+  width: 399px;
+}
+.content__video-card-thumbnail {
+  width: 100%;
+}
+.content__list {
+  height: 298px;
+  overflow: auto;
 }
