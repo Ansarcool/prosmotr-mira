@@ -57,7 +57,9 @@ ol {
 .content__list {
   height: 298px;
   overflow: auto;
-
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 .content__video-card {
   display: flex;
